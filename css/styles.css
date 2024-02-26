@@ -109,6 +109,11 @@ a {
 .navigation {
 margin-bottom: auto;
 }
+ 
+.top-line-ad {
+margin-left: auto;
+}
+
 
 .link-nav.carent {
     color: #404bbf;
@@ -246,13 +251,13 @@ margin-bottom: auto;
     .link-nav {
         padding: 24px 0;
         font-size: 20px;
-            font-weight: 500;
+        font-weight: 500;
         
     }
 
     .list-contacts {
         gap: 12px;
-        margin-left: 121px;
+       
     }
 
     .list-menu-soc {
@@ -322,6 +327,7 @@ margin-bottom: auto;
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    flex-grow: 1;
 }
 
 /* =================hero============================================= */
@@ -349,9 +355,9 @@ screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
     .page-hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/mobile-hero@2x.jpg);
-    }
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/mobile-hero@2x.jpg);
+        }
 }
 
 .title {
@@ -398,8 +404,9 @@ screen and (min-resolution: 2dppx) {
     .page-hero {
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/tablet-hero.jpg);
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/tablet-hero.jpg);
+        }
     }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -407,9 +414,8 @@ screen and (min-resolution: 2dppx) {
     screen and (min-resolution: 2dppx) {
         .page-hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)),
-                url(../images/tablet-hero@2x.jpg);
-        }
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/tablet-hero@2x.jpg);
     }
 
     .title {
@@ -424,10 +430,11 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 1158px) {
     .page-hero {
         padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-     url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office1.jpg);
     }
-
+    
     @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
@@ -668,7 +675,7 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .team-container {
-        width: 552px;
+        width: 582px;
     }
 }
 
